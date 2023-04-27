@@ -44,7 +44,8 @@
 }
 .cta:hover:before {
   width: 100%;
-  background: #ffab9d;
+  background: #0a578d;
+  color: #fff;
 }
 .cta:hover svg {
   transform: translateX(0);

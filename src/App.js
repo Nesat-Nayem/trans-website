@@ -6,20 +6,15 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
 import MobileApp from "./components/MobileApp";
-import Register from "./components/Register";
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import Faq from "./components/Faq";
 import WhatsApp from "./components/whats-app/WhatsApp";
 import Footer from "./components/Footer";
-import UserAgreement from "./components/user-agreement/UserAgreement"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (
     <>
-        {/* <Router> */}
       <Navbar />
       <Hero />
       <Bannerbottom />
@@ -30,14 +25,6 @@ function App() {
       <Faq />
       <WhatsApp />
       <Footer />
-
-      {/* this is add  */}
-
-      {/* <Routes>
-      <Route path="/useragreement" element={<UserAgreement />} />
-      </Routes> */}
-
-      {/* </Router> */}
     </>
   );
 }

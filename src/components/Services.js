@@ -12,6 +12,7 @@ const About = () => {
       >
         <div class="container">
           <div class="row">
+
             <div class="col-sm-12 text-center">
               <h4 class="thin margin_0 text-uppercase">Welcome to</h4>
               <h2 class="section_header">Our Services</h2>
@@ -21,6 +22,7 @@ const About = () => {
                 affordable rates, to suit your pocket and sooth your mind.
               </p>
             </div>
+            
           </div>
           <div class="row topmargin_30 columns_margin_bottom_30">
             <div class="col-md-4 col-sm-6">
@@ -80,7 +82,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 clear-md">
+            <div style={{marginTop:"64px"}} class="col-md-4 col-sm-6 clear-md">
               <div class="teaser text-center">
                 <div class="teaser_icon highlight size_normal">
                   {/* <i class="fa fa-inbox" aria-hidden="true"></i> */}
@@ -103,12 +105,12 @@ const About = () => {
             <div class="col-md-4 col-sm-6 clear-sm">
               <div class="teaser text-center">
                 <div class="teaser_icon highlight size_normal">
-                  <i class="fa fa-gift" aria-hidden="true"></i>
-                  {/* <img
-                    src="./images/courier 1.png"
+                  {/* <i class="fa fa-gift" aria-hidden="true"></i> */}
+                  <img
+                    src="https://i.ibb.co/G7c6QBJ/Trans23-icons2404-01.png"
                     alt="home relocation"
-                    style={{ width: "30px" }}
-                  /> */}
+                    style={{ width: "100px", height:"100px" }}
+                  />
                 </div>
                 <h4 class="text-uppercase weight-black">
                   <Link to="/courier-service">Courier</Link>
@@ -123,12 +125,12 @@ const About = () => {
               <div class="teaser text-center">
                 <div class="teaser_icon highlight size_normal">
                   {/* <i class="fa fa-cubes" aria-hidden="true"></i> */}
-                  <FaShippingFast />
-                  {/* <img
-                    src="./images/delivery-truck 1.png"
+                  {/* <FaShippingFast /> */}
+                  <img
+                    src="https://i.ibb.co/D1ywLXt/Trans23-icons2404-02.png"
                     alt="home relocation"
-                    style={{ width: "30px" }}
-                  /> */}
+                    style={{ width: "100px", height:"100px" }}
+                  />
                 </div>
                 <h4 class="text-uppercase weight-black">
                   <Link to="/vehicle-shipping-service">Vehicle Shipping</Link>

@@ -8,12 +8,9 @@ const DownloadApps = () => {
   const [visible, setVisible] = useState(false);
   return (
     <div>
-      {/* start apps downlod section  */}
-
       <section style={{ background: "#075890" }}>
         <div className="container">
           <div className="row clearfix">
-            {/* <!-- Content Column --> */}
             <div className="content-column col-lg-4 col-md-12 col-sm-12">
               <div
                 style={{ marginTop: "25px", marginBottom: "25px" }}
@@ -58,14 +55,11 @@ const DownloadApps = () => {
                     style={{ marginTop: "27px" }}
                     className="d-flex justify-content-left mt-4 "
                   >
-                    {/* <div className='row'>
-                      <div className='col-12'> */}
                     <button
                       type="button"
                       id="appleapp"
                       className=" py-3  text-white  ms-4"
                       style={{
-                        // display: "flex",
                         alignItems: "center",
                         height: "43px",
                         background:
@@ -87,7 +81,7 @@ const DownloadApps = () => {
                 </div>
               </div>
             </div>
-            {/* <!-- Image Column --> */}
+
             <div className="image-column col-lg-4 col-md-12 col-sm-12 text-center">
               <div className="inner-column" style={{ marginTop: "10px" }}>
                 <Image
@@ -207,8 +201,6 @@ const DownloadApps = () => {
           </div>
         </div>
       </section>
-
-      {/* end apps downlod section  */}
     </div>
   );
 };

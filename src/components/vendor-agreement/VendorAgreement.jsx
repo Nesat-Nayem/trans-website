@@ -1,9 +1,19 @@
 import { Card, Col, Row } from "antd";
 import React from "react";
+import logo from "../images/logo.png";
 import "./vendor.css";
+
 const VendorAgreement = ({ data }) => {
   return (
     <>
+      <div className="header">
+        <nav className="navbar">
+          <a href="/" className="logo d-flex ">
+            <img src={logo} alt="logo" />
+          </a>
+        </nav>
+      </div>
+
       <section className="vendor-section mt-5 mb-5">
         <div className="container">
           <div className="vendor-header text-center">

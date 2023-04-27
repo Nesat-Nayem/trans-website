@@ -44,12 +44,13 @@
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #111;
+  /* stroke: #111; */
+  stroke: #54be73;
   stroke-width: 2;
   transform: translateX(-5px);
   transition: all 0.3s ease;
 }
-.franchies-btn:hover:before {
+/* .franchies-btn:hover:before {
   width: 100%;
   background: #54be73;
 }
@@ -58,7 +59,7 @@
 }
 .franchies-btn:active {
   transform: scale(0.96);
-}
+} */
 
 .header .navbar {
   display: flex;

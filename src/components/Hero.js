@@ -10,10 +10,10 @@ const Hero = () => {
             <li>
               <img
                 id="mainImage"
-                src="./images/truck-boxes-arrangement.jpg"
+                src="https://i.ibb.co/C1NWbpd/Banner-1-With-Text.png"
                 alt=""
               />
-              <div class="container">
+              {/* <div class="container">
                 <div class="row">
                   <div class="col-sm-12">
                     <div class="slide_description_wrapper">
@@ -34,68 +34,16 @@ const Hero = () => {
                             <span class="bold">01 123 456 789</span>
                           </p>
                         </div>
-                        {/* <div class="intro-layer" data-animation="fadeInUp">
-                          <div
-                            style={{ marginTop: "27px" }}
-                            className="d-flex justify-content-left mt-4 "
-                          >
-                            <button
-                              id="appleapp"
-                              type="button"
-                              className=" py-3  text-white  ms-4"
-                              style={{
-                                // display: "flex",
-                                alignItems: "center",
-                                height: "43px",
-                                background:
-                                  "linear-gradient(90deg, rgb(57, 120, 162), rgb(95, 203, 232))",
-                                border: "none",
-                                marginRight: "20px",
-                                padding: "10px 41px",
-                                fontSize: "14px",
-                                borderRadius: "25px",
-                              }}
-                            >
-                              <BsApple
-                                style={{ marginRight: "10px" }}
-                                className="mr-2"
-                              />{" "}
-                              app store
-                            </button>
-
-                            <button
-                              type="button"
-                              className="  py-3  text-white  mr-4"
-                              style={{
-                                alignItems: "center",
-
-                                height: "43px",
-                                background:
-                                  "linear-gradient(90deg, rgb(57, 120, 162), rgb(95, 203, 232))",
-                                border: "none",
-                                padding: "10px 35px",
-                                fontSize: "14px",
-                                borderRadius: "25px",
-                              }}
-                            >
-                              <FaGooglePlay
-                                style={{ marginRight: "10px" }}
-                                className="mr-2"
-                              />
-                              google-play
-                            </button>
-                          </div>
-                        </div> */}
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </li>
 
             <li className="" style={{ color: "#000" }}>
-              <img id="mainImage" src="./images/b-2.jpg" alt="" />
-              <div class="container">
+              <img id="mainImage" src="https://i.ibb.co/ryKG33v/Trans23-Banner-2204-03.png" alt="" />
+              {/* <div class="container">
                 <div class="row">
                   <div class="col-sm-12 text-right">
                     <div class="slide_description_wrapper">
@@ -115,70 +63,11 @@ const Hero = () => {
                             <span class="bold">01 123 456 789</span>
                           </p>
                         </div>
-                        {/* <div class="intro-layer" data-animation="fadeInUp">
-                          <div
-                            style={{ marginTop: "27px" }}
-                            className="d-flex justify-content-left mt-4 "
-                          >
-                            <button
-                              id="appleapp"
-                              type="button"
-                              className=" py-3  text-white  ms-4"
-                              style={{
-                                // display: "flex",
-                                alignItems: "center",
-                                height: "43px",
-                                background:
-                                  "linear-gradient(90deg, rgb(57, 120, 162), rgb(95, 203, 232))",
-                                border: "none",
-                                marginRight: "20px",
-                                padding: "10px 41px",
-                                fontSize: "14px",
-                                borderRadius: "25px",
-                              }}
-                            >
-                              <BsApple
-                                style={{ marginRight: "10px" }}
-                                className="mr-2"
-                              />{" "}
-                              app store
-                            </button>
-
-                            <button
-                              id="Gplay"
-                              type="button"
-                              className="  py-3  text-white  mr-4"
-                              style={{
-                                // display: "flex",
-                                alignItems: "center",
-
-                                height: "43px",
-                                background:
-                                  "linear-gradient(90deg, rgb(57, 120, 162), rgb(95, 203, 232))",
-                                border: "none",
-                                padding: "10px 35px",
-                                fontSize: "14px",
-                                borderRadius: "25px",
-                              }}
-                            >
-                              <FaGooglePlay
-                                style={{ marginRight: "10px" }}
-                                className="mr-2"
-                              />
-                              google-play
-                            </button>
-                          </div>
-                        </div> */}
                       </div>
-                      {/* <!-- eof .slide_description --> */}
                     </div>
-                    {/* <!-- eof .slide_description_wrapper --> */}
                   </div>
-                  {/* <!-- eof .col-* --> */}
                 </div>
-                {/* <!-- eof .row --> */}
-              </div>
-              {/* <!-- eof .container --> */}
+              </div> */}
             </li>
           </ul>
         </div>
