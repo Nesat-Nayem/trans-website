@@ -47,6 +47,10 @@
   margin-bottom: 1rem;
 }
 
+.form-control{
+  border: 1px solid #8080805c !important;
+}
+
 @media screen and (max-width: 940px) {
   .footer-links {
     font-size: 14px;
@@ -58,3 +62,5 @@
     margin-bottom: 1.2rem;
   }
 }
+
+

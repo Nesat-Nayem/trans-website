@@ -82,7 +82,7 @@ const Footer = () => {
             <div class="widget widget_contact topmargin_10">
               <h3>Contact Us</h3>
               <form class="contact-form" method="post" action="./">
-                <p class="form-group">
+                <p style={{borderColor:"gray !important", outlineColor:"gray !important"}} class="form-group">
                   <label for="footer-name">
                     Name <span class="required">*</span>
                   </label>

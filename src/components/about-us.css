@@ -4,13 +4,15 @@
 }
 
 .cta {
-  position: relative;
+  /* position: relative; */
   margin: auto;
-  padding: 19px 22px;
-  transition: all 0.2s ease;
+  padding: 13px 22px;
+  /* transition: all 0.2s ease; */
   color: #000 !important;
+  border-radius: 10px;
+  background: #54be73;
 }
-.cta:before {
+/* .cta:before {
   content: "";
   position: absolute;
   top: 0;
@@ -53,7 +55,7 @@
 }
 .cta:active {
   transform: scale(0.96);
-}
+} */
 
 .cImagecontainer {
   position: relative;

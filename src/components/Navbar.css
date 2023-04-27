@@ -11,13 +11,16 @@
 }
 
 .franchies-btn {
-  position: relative;
+  /* position: relative; */
   margin: auto;
-  padding: 19px 22px;
+  padding: 10px 22px;
   transition: all 0.2s ease;
   color: #000 !important;
+  background: #54be73;
+  border-radius: 10px;
+
 }
-.franchies-btn:before {
+/* .franchies-btn:before {
   content: "";
   position: absolute;
   top: 0;
@@ -32,24 +35,25 @@
 .franchies-btn span {
   position: relative;
   color: #000;
+  background-color: #54be73;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 2px;
   vertical-align: middle;
-}
-.franchies-btn svg {
+} */
+/* .franchies-btn svg {
   position: relative;
   top: 0;
   margin-left: 10px;
   fill: none;
   stroke-linecap: round;
-  stroke-linejoin: round;
+  stroke-linejoin: round; */
   /* stroke: #111; */
-  stroke: #54be73;
+  /* stroke: #54be73;
   stroke-width: 2;
   transform: translateX(-5px);
   transition: all 0.3s ease;
-}
+} */
 /* .franchies-btn:hover:before {
   width: 100%;
   background: #54be73;

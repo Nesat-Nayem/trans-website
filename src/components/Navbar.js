@@ -86,10 +86,10 @@ const Navbar = () => {
           <li className="nav-item">
             <div class="franchies-btn" onClick={() => setModal2Open(true)}>
               <span> Franchises Register</span>
-              <svg width="13px" height="10px" viewBox="0 0 13 10">
+              {/* <svg width="13px" height="10px" viewBox="0 0 13 10">
                 <path d="M1,5 L11,5"></path>
                 <polyline points="8 1 12 5 8 9"></polyline>
-              </svg>
+              </svg> */}
             </div>
             <Modal
               title=""
