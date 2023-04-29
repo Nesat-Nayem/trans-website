@@ -8,6 +8,10 @@ import VendorAgreement from "./components/vendor-agreement/VendorAgreement";
 import Contact from "./components/Contact";
 import AboutUs from "./components/AboutUs";
 import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy";
+import AppsUserAgreement from "./components/AppsUserAgreement/AppsUserAgreement";
+import AppsPrivacyPolicy from "./components/AppsPrivacyPolicy/AppsPrivacyPolicy";
+import AppsContract from "./components/AppsContract";
+import AppsAboutUs from "./components/AppsAboutUs";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,8 +21,12 @@ ReactDOM.render(
         <Route path="/terms-and-condition" element={<UserAgreement />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/vendorAgreement" element={<VendorAgreement />} />
-        <Route path="/contact" element={<Contact />} />
         <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/app-about-us" element={<AppsAboutUs />} />
+        <Route path="/app-contact" element={<AppsContract />} />
+        <Route path="/app-terms-and-condition" element={<AppsUserAgreement />} />
+        <Route path="/app-privacy-policy" element={<AppsPrivacyPolicy />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
