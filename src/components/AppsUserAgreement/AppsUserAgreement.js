@@ -11,7 +11,7 @@ const AppsUserAgreement = () => {
           <div className="userAgreement-header text-center">
             <h3>User-Agreement</h3>
           </div>
-          <div className="privacy-wrapper">
+          {/* <div className="privacy-wrapper">
             <h4>Personal Information:</h4>
             <ul>
               <li>
@@ -190,6 +190,27 @@ const AppsUserAgreement = () => {
                 Insurance is must for transporting vehicle. Therefore claim
                 shall not be granted without insurance.
               </li>
+            </ul>
+          </div> */}
+             <div className="privacy-wrapper" >
+            <ul>
+              <li style={{marginBottom:"9px"}}>1. The user has to make the booking by paying the initial amount within a week of submitting the quotation. </li>
+            
+              <li style={{marginBottom:"9px"}}>2. Booking amount can be refundable only before 24 hrs of the actual scheduled timing.</li>
+           
+              <li style={{marginBottom:"9px"}}>3. Any additional package will be charged extra</li>
+            
+              <li style={{marginBottom:"9px"}}>4. Any item marked as a free transition by Trans23 will be counted as unclaimed if broken and damaged during transition.
+              </li>
+              <li style={{marginBottom:"9px"}}>5. Customers should check the items at the time of booking. </li>
+              <li style={{marginBottom:"9px"}}>6. To ensure smooth provision of the service, the Users are required to intimate Trans23 in advance if the vehicle of Trans23 can enter the premises/lane of the User, the distance between the vehicle of Trans23 and the lift/house gate, as the case may be, and the maximum time the vehicle can be retained inside the premises.
+              </li>
+              <li style={{marginBottom:"9px"}}>7. The packing materials used by Trans23 is the property of Trans23 and will be taken back on the same day of unloading, otherwise, rent will be charged as our Policy.
+              </li>
+              <li style={{marginBottom:"9px"}}>8. The fees quoted by Trans23 is subject to various factors and hence a slot is booked in advance. The fees quoted by Trans23 may change if the movement date/inventory/distance is changed after confirmation of payment. In this regard, a revised quotation will be offered as per the change in price if necessary.</li>
+              <li style={{marginBottom:"9px"}}>9. The fees charged by Trans23 for the provision of the Service shall not include (i) any dismantling (carpenter work) and fittings of electrical, electronic appliances; (ii) any Mathadi (Union Labour & related) charges; and (iii) any arranging work which includes pipes, gas filling, extra wire, fittings associated etc. Additionally, materials have to be purchased separately for such mantle and dismantle work which is not part of the fees quotes by Trans23 and have to be borne by the User.
+              </li>
+              <li style={{marginBottom:"9px"}}>10. Where due to unforeseen circumstances, it is not reasonably practicable for either party to undertake the service, the liability, if any, in such a situation shall be limited to the token amount paid by the User for the service. Where the User cancels the service after the Trans23 reaches the pickup location, the transportation charges will be borne by the User, however, the token amount shall be fully refundable on shifting cancellation up to 1 day before the provision of the service.</li>
             </ul>
           </div>
         </div>

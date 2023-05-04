@@ -12,6 +12,7 @@ import AppsUserAgreement from "./components/AppsUserAgreement/AppsUserAgreement"
 import AppsPrivacyPolicy from "./components/AppsPrivacyPolicy/AppsPrivacyPolicy";
 import AppsContract from "./components/AppsContract";
 import AppsAboutUs from "./components/AppsAboutUs";
+import RefundPloicy from "./components/RefundPloicy/RefundPloicy";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,6 +21,7 @@ ReactDOM.render(
         <Route path="/" element={<App />} />
         <Route path="/terms-and-condition" element={<UserAgreement />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/refund-policy" element={<RefundPloicy />} />
         <Route path="/vendorAgreement" element={<VendorAgreement />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/contact" element={<Contact />} />

@@ -26,8 +26,9 @@ const Footer = () => {
                       aria-hidden="true"
                     ></i>
                   </div>
-                  <div class="media-body media-middle">
-                    Mumbai Maharashtra India
+                  <div style={{textAlign:"left"}} class="media-body media-middle">
+                    {/* Mumbai Maharashtra India */}
+                    447, Ramnagar, Lonikand, Pune Nagar Road, Wagholi, Pune, Maharashtra, India- 412207
                   </div>
                 </div>
 
@@ -40,7 +41,7 @@ const Footer = () => {
                     ></i>
                   </div>
                   <div class="media-body media-middle">
-                    Call 24/7: +91 90215 57095
+                    Call 24/7: +91 853 0312323
                   </div>
                 </div>
 
@@ -54,7 +55,7 @@ const Footer = () => {
                   </div>
 
                   <div class="media-body media-middle darklinks">
-                    Info@trans23.com
+                  punetrans23@gmail.com
                   </div>
                 </div>
               </div>
@@ -183,7 +184,7 @@ const Footer = () => {
                   <BsChevronRight /> &nbsp; Testimonials
                 </ScrollLink>
               </div>
-              <div className="footer-links">
+              {/* <div className="footer-links">
                 <ScrollLink
                   activeClass="active"
                   to="faq"
@@ -195,7 +196,7 @@ const Footer = () => {
                 >
                   <BsChevronRight /> &nbsp; Faq
                 </ScrollLink>
-              </div>
+              </div> */}
               <div className="footer-links">
                 <RouterLink to="/about-us" className="footer-links">
                   <BsChevronRight /> &nbsp; About Us
@@ -218,6 +219,13 @@ const Footer = () => {
                   <BsChevronRight />
                    {/* &nbsp; Privacy Policy */}
                    &nbsp; Privacy Policy
+                </RouterLink>
+              </div>
+              <div className="footer-links">
+                <RouterLink to="/refund-policy" className="footer-links">
+                  <BsChevronRight />
+                   {/* &nbsp; Privacy Policy */}
+                   &nbsp; Refund Policy
                 </RouterLink>
               </div>
 
