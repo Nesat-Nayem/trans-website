@@ -67,7 +67,7 @@
 
 .header .navbar {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   max-width: 1240px;
   margin: auto;
@@ -92,6 +92,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: auto;
 }
 
 .header .nav-item {
@@ -111,6 +112,7 @@
 
 .hamburger {
   display: none;
+  margin-left: auto;
 }
 
 @media screen and (max-width: 940px) {
