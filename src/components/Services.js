@@ -22,18 +22,18 @@ const About = () => {
                 affordable rates, to suit your pocket and sooth your mind.
               </p>
             </div>
-            
+
           </div>
           <div class="row topmargin_30 columns_margin_bottom_30">
             <div class="col-md-4 col-sm-6">
               <div class="teaser text-center">
                 <div class="teaser_icon highlight size_normal">
-                  <i class="fa fa-map-marker"></i>
-                  {/* <img
-                    src="./images/move 1.png"
+                  {/* <i class="fa fa-map-marker"></i> */}
+                  <img
+                    src="https://i.ibb.co/W6nY0SC/home.png"
                     alt="home relocation"
-                    style={{ width: "30px" }}
-                  /> */}
+                    style={{ width: "100px", height: "100px" }}
+                  />
                 </div>
                 <h4 class="text-uppercase weight-black">
                   <Link to="/home-service">Home Relocation</Link>
@@ -44,15 +44,16 @@ const About = () => {
                 </p>
               </div>
             </div>
+
             <div class="col-md-4 col-sm-6">
               <div class="teaser text-center">
                 <div class="teaser_icon highlight size_normal">
-                  <i class="fa fa-globe" aria-hidden="true"></i>
-                  {/* <img
-                    src="./images/relocate 1.png"
-                    alt="home relocation"
-                    style={{ width: "30px" }}
-                  /> */}
+                  {/* <i class="fa fa-globe" aria-hidden="true"></i> */}
+                  <img
+                    src="https://i.ibb.co/cJpKdNr/office.png"
+                    alt="office relocation"
+                    style={{ width: "100px", height: "100px" }}
+                  />
                 </div>
                 <h4 class="text-uppercase weight-black">
                   <Link to="/office-service">Office Relocation</Link>
@@ -66,15 +67,15 @@ const About = () => {
             <div class="col-md-4 col-sm-6 clear-sm">
               <div class="teaser text-center">
                 <div class="teaser_icon highlight size_normal">
-                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                  {/* <img
-                    src="./images/warehouse 1.png"
-                    alt="home relocation"
-                    style={{ width: "30px" }}
-                  /> */}
+                  {/* <i class="fa fa-shopping-cart" aria-hidden="true"></i> */}
+                  <img
+                    src="https://i.ibb.co/prRy7gk/household.png"
+                    alt="household storage"
+                    style={{ width: "100px", height: "100px" }}
+                  />
                 </div>
                 <h4 class="text-uppercase weight-black">
-                  <Link to="/residential-service">Residential Storage</Link>
+                  <Link to="/residential-service">Household Storage</Link>
                 </h4>
                 <p>
                   We offer several different moving kits so you don’t have to
@@ -82,16 +83,16 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div style={{marginTop:"64px"}} class="col-md-4 col-sm-6 clear-md">
+            <div  class="col-md-4 col-sm-6 clear-md">
               <div class="teaser text-center">
                 <div class="teaser_icon highlight size_normal">
                   {/* <i class="fa fa-inbox" aria-hidden="true"></i> */}
-                  <FaWarehouse />
-                  {/* <img
-                    src="./images/warehouse (1) 1.png"
-                    alt="home relocation"
-                    style={{ width: "30px" }}
-                  /> */}
+                  {/* <FaWarehouse /> */}
+                  <img
+                    src="https://i.ibb.co/z8P53mT/factory.png"
+                    alt="commercial storage"
+                    style={{ width: "100px", height: "100px" }}
+                  />
                 </div>
                 <h4 class="text-uppercase weight-black">
                   <Link to="/commercial-service">Commercial Storage</Link>
@@ -107,9 +108,9 @@ const About = () => {
                 <div class="teaser_icon highlight size_normal">
                   {/* <i class="fa fa-gift" aria-hidden="true"></i> */}
                   <img
-                    src="https://i.ibb.co/G7c6QBJ/Trans23-icons2404-01.png"
-                    alt="home relocation"
-                    style={{ width: "100px", height:"100px" }}
+                    src="https://i.ibb.co/9nc7gkS/courier.png"
+                    alt="courier"
+                    style={{ width: "100px", height: "100px" }}
                   />
                 </div>
                 <h4 class="text-uppercase weight-black">
@@ -127,9 +128,9 @@ const About = () => {
                   {/* <i class="fa fa-cubes" aria-hidden="true"></i> */}
                   {/* <FaShippingFast /> */}
                   <img
-                    src="https://i.ibb.co/D1ywLXt/Trans23-icons2404-02.png"
-                    alt="home relocation"
-                    style={{ width: "100px", height:"100px" }}
+                    src="https://i.ibb.co/whjj1cy/vehicle-transport.png"
+                    alt="vehicle transport"
+                    style={{ width: "100px", height: "100px" }}
                   />
                 </div>
                 <h4 class="text-uppercase weight-black">
