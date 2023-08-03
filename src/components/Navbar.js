@@ -21,7 +21,7 @@ const Navbar = () => {
       <nav className="navbar">
   
         <Link to="/" className="logo">
-          <img src={logo} alt="logo" />
+          <img style={{marginLeft:"20px"}} src={logo} alt="logo" />
         </Link>
         <div className="hamburger " onClick={handleClick}>
           {click ? (
