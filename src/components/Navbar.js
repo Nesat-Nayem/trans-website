@@ -17,7 +17,9 @@ const Navbar = () => {
 
   return (
     <div className="header">
+
       <nav className="navbar">
+  
         <Link to="/" className="logo">
           <img src={logo} alt="logo" />
         </Link>

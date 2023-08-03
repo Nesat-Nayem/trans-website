@@ -16,9 +16,9 @@ const UserAgreement = () => {
       <section className="userAgreement-section mt-5 mb-5">
         <div className="container">
           <div className="userAgreement-header text-center">
-            <h3>TERMS AND CONDITIONS</h3>
+            <h3>User-Agreement</h3>
           </div>
-          {/* <div className="privacy-wrapper">
+          <div className="privacy-wrapper">
             <h4>Personal Information:</h4>
             <ul>
               <li>
@@ -198,8 +198,8 @@ const UserAgreement = () => {
                 shall not be granted without insurance.
               </li>
             </ul>
-          </div> */}
-          <div className="privacy-wrapper" >
+          </div>
+          {/* <div className="privacy-wrapper" >
             <ul>
               <li style={{marginBottom:"9px"}}>1. The user has to make the booking by paying the initial amount within a week of submitting the quotation. </li>
             
@@ -219,7 +219,7 @@ const UserAgreement = () => {
               </li>
               <li style={{marginBottom:"9px"}}>10. Where due to unforeseen circumstances, it is not reasonably practicable for either party to undertake the service, the liability, if any, in such a situation shall be limited to the token amount paid by the User for the service. Where the User cancels the service after the Trans23 reaches the pickup location, the transportation charges will be borne by the User, however, the token amount shall be fully refundable on shifting cancellation up to 1 day before the provision of the service.</li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

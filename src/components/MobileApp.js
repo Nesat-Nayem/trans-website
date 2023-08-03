@@ -39,15 +39,11 @@ const DownloadApps = () => {
                       textAlign: "justify",
                     }}
                   >
-                    Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
-                    Nulla Placeat Deserunt Saepe Repudiandae Veniam Soluta
-                    Minima Dolor Hic Aperiam Iure.
+                    Trans23 is headquartered in Pune (Maharashtra), provides services in multiple verticals including storage, packers & movers, couriers, vehicle shipping, logistics & many more to come.
                     <br />
                     <br />
-                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit.
-                    Laudantium, Quaerat. Dolorem Ratione Saepe Magni Quo
-                    Inventore Porro Ab Voluptates Eos, Nam Eius Provident
-                    Accusantium, Quia Similique Est, Repellendus Et Reiciendis.
+                    Trans23 app enables customers to book multiple services at one platform providing total transparency to customers about end-to-end process.
+
                   </p>
                 </div>
                 <div className=" clearfix ">
@@ -155,15 +151,11 @@ const DownloadApps = () => {
                       textAlign: "justify",
                     }}
                   >
-                    Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
-                    Nulla Placeat Deserunt Saepe Repudiandae Veniam Soluta
-                    Minima Dolor Hic Aperiam Iure.
+                   Trans23 is headquartered in Pune (Maharashtra), provides services in multiple verticals including storage, packers & movers, couriers, vehicle shipping, logistics & many more to come.
                     <br />
                     <br />
-                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit.
-                    Laudantium, Quaerat. Dolorem Ratione Saepe Magni Quo
-                    Inventore Porro Ab Voluptates Eos, Nam Eius Provident
-                    Accusantium, Quia Similique Est, Repellendus Et Reiciendis.
+                    Trans23 app enables customers to book multiple services at one platform providing total transparency to customers about end-to-end process.
+
                   </p>
                 </div>
                 <div className=" clearfix ">

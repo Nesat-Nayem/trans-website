@@ -18,7 +18,7 @@ const PrivacyPolicy = () => {
           <div className="userAgreement-header text-center">
             <h3>Trans23 Privacy Policy</h3>
           </div>
-          {/* <div className="privacy-wrapper">
+          <div className="privacy-wrapper">
             <h4>Introduction:</h4>
             <ul>
               <li>
@@ -179,8 +179,8 @@ const PrivacyPolicy = () => {
                 websites or apps.
               </li>
             </ul>
-          </div> */}
-          <div className="privacy-wrapper">
+          </div>
+          {/* <div className="privacy-wrapper">
             <ul>
               <li  style={{marginBottom:"9px"}}>1. Once the user creates the profile, the data gets stored it in the Trans23 database.
               </li>
@@ -192,7 +192,7 @@ const PrivacyPolicy = () => {
               <li  style={{marginBottom:"9px"}}>4. Trans23, at all times, reserves the right, to reject or disable an Account in the event of the User’s violation of any Applicable Law or anything done by the User in contravention of this Agreement and including but not limited for any other reason in relation to the safe and secure operation of the Site.</li>
           
             </ul>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

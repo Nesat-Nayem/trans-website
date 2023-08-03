@@ -37,10 +37,7 @@ const About = () => {
                 </p>
 
                 <p>
-                  <strong>Trans23</strong> located in San Diego; one of the
-                  major cities of California. We are a one-stop solution to all
-                  your moving problems. From packing to relocating, we offer all
-                  that you have in mind when you think of moving.
+                  <strong>Trans23</strong> is headquartered in Pune (Maharashtra), provides services in multiple verticals including storage, packers & movers, couriers, vehicle shipping, logistics & many more to come.
                 </p>
 
                 <ul
