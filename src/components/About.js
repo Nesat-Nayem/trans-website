@@ -55,8 +55,8 @@ const About = () => {
                 </a>
               </p> */}
 
-                <a href="#" class="cta">
-                  <span>About Us</span>
+                <a style={{borderRadius:"none"}} href="#" class="cta">
+                  <span style={{borderRadius:"0px"}}>About Us</span>
                   {/* <svg width="13px" height="10px" viewBox="0 0 13 10">
                     <path d="M1,5 L11,5"></path>
                     <polyline points="8 1 12 5 8 9"></polyline>

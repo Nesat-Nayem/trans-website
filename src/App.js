@@ -23,7 +23,7 @@ function App() {
       <Testimonials />
       <MobileApp />
       <Faq />
-      <WhatsApp />
+      {/* <WhatsApp /> */}
       <Footer />
     </>
   );

@@ -113,6 +113,7 @@
 .hamburger {
   display: none;
   margin-left: auto;
+  padding-right: 20px;
 }
 
 @media screen and (max-width: 940px) {
@@ -140,6 +141,7 @@
     z-index: 999;
     text-align: center;
     transition: 0.3s;
+    padding-left: 0px;
   }
 
   .nav-menu.active {
