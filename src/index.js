@@ -13,6 +13,7 @@ import AppsPrivacyPolicy from "./components/AppsPrivacyPolicy/AppsPrivacyPolicy"
 import AppsContract from "./components/AppsContract";
 import AppsAboutUs from "./components/AppsAboutUs";
 import RefundPloicy from "./components/RefundPloicy/RefundPloicy";
+import Subscription from "./components/Subscription/Subscription";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -29,6 +30,7 @@ ReactDOM.render(
         <Route path="/app-contact" element={<AppsContract />} />
         <Route path="/app-terms-and-condition" element={<AppsUserAgreement />} />
         <Route path="/app-privacy-policy" element={<AppsPrivacyPolicy />} />
+        <Route path="/subscription" element={<Subscription />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

@@ -187,7 +187,7 @@ const Navbar = () => {
                           />
                         </div>
                         <div className="text-center">
-                          <button type="button" class=" btn-primary">
+                          <button type="submit" class=" btn-primary">
                             REGISTER
                           </button>
                         </div>
