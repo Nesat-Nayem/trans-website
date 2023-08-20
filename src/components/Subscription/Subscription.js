@@ -1,8 +1,19 @@
 import React from 'react'
 // import './Subscription.css'
 import './SubscriptionTwo.css'
+import SubsNubbar from './SubsNubbar';
 const Subscription = () => {
+
+
+    const handleClick = () => {
+      // Navigate to the desired link
+      window.open('https://mercury-uat.phonepe.com/transact/simulator?token=iLGhlIP2m4gB8YLZGnF3polH4CFf2S3yOpLFnGEZPw', '_blank');
+    };
+
+    
     return (
+        <>
+        <SubsNubbar></SubsNubbar>
       <div id='subscription'>
         <div className='wraper'>
 
@@ -16,7 +27,7 @@ const Subscription = () => {
                     <li>Safe Transportation</li>
                     <li>Local and Long-Distance</li>
                 </ul>
-                <button className="subButton">Purchase</button>
+                <button onClick={handleClick} className="subButton">Purchase</button>
             </div>
 
                   {/* card two  */}
@@ -29,7 +40,7 @@ const Subscription = () => {
                     <li>Secure and Private</li>
                     <li>VIP Access</li>
                 </ul>
-                <button className="subButton">Purchase</button>
+                <button onClick={handleClick} className="subButton">Purchase</button>
             </div>
 
                   {/* card three  */}
@@ -42,7 +53,7 @@ const Subscription = () => {
                     <li>Secure Handling</li>
                     <li>Nationwide Coverage</li>
                 </ul>
-                <button className="subButton">Purchase</button>
+                <button onClick={handleClick} className="subButton">Purchase</button>
             </div>
                   {/* card four  */}
                   <div className='SupCard movers'>
@@ -54,11 +65,12 @@ const Subscription = () => {
                     <li>Open Transport Solutions</li>
                     <li>Experienced Drivers</li>
                 </ul>
-                <button className="subButton">Purchase</button>
+                <button onClick={handleClick} className="subButton">Purchase</button>
             </div>
 
         </div>
       </div>
+      </>
     )
 }
 

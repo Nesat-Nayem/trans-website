@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
 import logo from "./images/logo.png";
 import { Modal } from "antd";
+import { useNavigate } from 'react-router-dom';
 
 import "./Navbar.css";
 import "./Register.css";
@@ -14,6 +15,12 @@ const Navbar = () => {
   const [modal2Open, setModal2Open] = useState(false);
 
   const closeMenu = () => setClick(false);
+  const navigate = useNavigate();
+
+  const subscriptionNavigate = () =>{
+    navigate('/subscription');
+    
+  }
 
   return (
     <div className="header">
@@ -187,7 +194,7 @@ const Navbar = () => {
                           />
                         </div>
                         <div className="text-center">
-                          <button type="submit" class=" btn-primary">
+                          <button onClick={subscriptionNavigate} type="button" class=" btn-primary">
                             REGISTER
                           </button>
                         </div>
