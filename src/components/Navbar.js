@@ -22,6 +22,28 @@ const Navbar = () => {
     
   }
 
+
+  // form data 
+
+   // create a state variable to store the input data
+   const [formData, setFormData] = React.useState({});
+
+   // handle the change of each input element
+   const handleChange = (e) => {
+     // get the name and value of the input element
+     const { name, value } = e.target;
+     // update the state variable with the input value
+     setFormData({ ...formData, [name]: value });
+   };
+ 
+   // handle the click of the register button
+   const handleClickSubmit = () => {
+     // print the input data in the console
+     console.log(formData);
+
+     navigate('/subscription');
+   };
+
   return (
     <div className="header">
 
@@ -126,6 +148,7 @@ const Navbar = () => {
                             <input
                               type="text"
                               name="name"
+                              onChange={handleChange}
                               placeholder="Enter Your Name"
                             />
                           </div>
@@ -137,6 +160,7 @@ const Navbar = () => {
                           <input
                             type="email"
                             name="email"
+                            onChange={handleChange}
                             placeholder="Enter Your Email"
                           />
                         </div>
@@ -147,6 +171,7 @@ const Navbar = () => {
                           <input
                             type="text"
                             name="phone"
+                            onChange={handleChange}
                             placeholder="Enter Your Phone No"
                           />
                         </div>
@@ -157,6 +182,7 @@ const Navbar = () => {
                           <input
                             type="text"
                             name="address"
+                            onChange={handleChange}
                             placeholder="Enter Your Address"
                           />
                         </div>
@@ -170,6 +196,7 @@ const Navbar = () => {
                           <input
                             type="text"
                             name="state"
+                            onChange={handleChange}
                             placeholder="Enter Your State"
                           />
                         </div>
@@ -180,6 +207,7 @@ const Navbar = () => {
                           <input
                             type="text"
                             name="city"
+                            onChange={handleChange}
                             placeholder="Enter Your City"
                           />
                         </div>
@@ -190,11 +218,15 @@ const Navbar = () => {
                           <input
                             type="password"
                             name="password"
+                            onChange={handleChange}
                             placeholder="Password"
                           />
                         </div>
                         <div className="text-center">
-                          <button onClick={subscriptionNavigate} type="button" class=" btn-primary">
+                          <button 
+                          // onClick={subscriptionNavigate}
+                          onClick={handleClickSubmit}
+                           type="button" class=" btn-primary">
                             REGISTER
                           </button>
                         </div>
