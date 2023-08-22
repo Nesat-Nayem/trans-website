@@ -7,6 +7,7 @@ import { useNavigate } from 'react-router-dom';
 
 import "./Navbar.css";
 import "./Register.css";
+import { useFormData } from "../Context/FormDataContext";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -22,11 +23,13 @@ const Navbar = () => {
     
   }
 
+  const { formData, setFormData } = useFormData();
+
 
   // form data 
 
    // create a state variable to store the input data
-   const [formData, setFormData] = React.useState({});
+  //  const [formData, setFormData] = React.useState({});
 
    // handle the change of each input element
    const handleChange = (e) => {

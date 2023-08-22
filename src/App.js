@@ -11,10 +11,12 @@ import WhatsApp from "./components/whats-app/WhatsApp";
 import Footer from "./components/Footer";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+// import { FormDataProvider } from "./Context/FormDataContext";
 
 function App() {
   return (
     <>
+       {/* <FormDataProvider> */}
       <Navbar />
       <Hero />
       <Bannerbottom />
@@ -25,6 +27,7 @@ function App() {
       <Faq />
       {/* <WhatsApp /> */}
       <Footer />
+      {/* </FormDataProvider> */}
     </>
   );
 }

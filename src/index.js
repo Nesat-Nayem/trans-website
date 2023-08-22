@@ -14,11 +14,14 @@ import AppsContract from "./components/AppsContract";
 import AppsAboutUs from "./components/AppsAboutUs";
 import RefundPloicy from "./components/RefundPloicy/RefundPloicy";
 import Subscription from "./components/Subscription/Subscription";
+import { FormDataProvider } from "./Context/FormDataContext";
 
 ReactDOM.render(
   <React.StrictMode>
+        <FormDataProvider> 
     <BrowserRouter>
       <Routes>
+  
         <Route path="/" element={<App />} />
         <Route path="/terms-and-condition" element={<UserAgreement />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
@@ -31,8 +34,10 @@ ReactDOM.render(
         <Route path="/app-terms-and-condition" element={<AppsUserAgreement />} />
         <Route path="/app-privacy-policy" element={<AppsPrivacyPolicy />} />
         <Route path="/subscription" element={<Subscription />} />
+      
       </Routes>
     </BrowserRouter>
+    </FormDataProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );

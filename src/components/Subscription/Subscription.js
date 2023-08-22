@@ -2,12 +2,16 @@ import React from 'react'
 // import './Subscription.css'
 import './SubscriptionTwo.css'
 import SubsNubbar from './SubsNubbar';
+import { useFormData } from '../../Context/FormDataContext';
+
+
+
 const Subscription = () => {
 
+  const { formData } = useFormData();
 
+  console.log('form data form subscription', formData)
     const handleClick = () => {
-      // Navigate to the desired link
-      window.open('https://mercury-uat.phonepe.com/transact/simulator?token=iLGhlIP2m4gB8YLZGnF3polH4CFf2S3yOpLFnGEZPw', '_blank');
     };
 
     
